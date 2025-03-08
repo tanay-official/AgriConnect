@@ -11,4 +11,4 @@ By eliminating middlemen and providing real-time market insights, AgriConnect em
 ## Solution
 
 
-![image alt]([https://user-images.githubusercontent.com/41892175/46054770-4f472180-c17b-11e8-99d5-d140b201046b.jpg](https://github.com/tanay-official/AgriConnect/blob/d40d0bf971cb9c15b376496abd9a35e127aae4ff/AgriConnect%20Class%20Diagram.png))
+![Image](https://github.com/user-attachments/assets/f71d8591-ee92-4da7-a6d3-f452dcd34fb7)
