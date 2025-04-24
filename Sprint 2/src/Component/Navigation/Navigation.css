@@ -1,0 +1,34 @@
+.nabar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    padding: 2% 6px;
+    scroll-behavior: smooth;
+    position: static;
+}
+.imgstyl{
+    width: 76px;
+    height: 60px;
+    border-radius: 7px;
+}
+
+.uldesign{
+    display: flex;
+        list-style: none;
+        text-align: center;
+        gap: 30px;
+        flex-direction: row;
+        align-content: center;
+        align-items: baseline;
+        justify-content: center;
+}
+
+.uldesign>li>a{
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    color: #179ac4;
+}
