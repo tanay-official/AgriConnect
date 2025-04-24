@@ -1,0 +1,38 @@
+.seller-content-wrapper {
+    padding: 40px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .seller-heading {
+    text-align: center;
+    color: #17a26b;
+    font-size: 32px;
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+  
+  .card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-radius: 10px;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    color: #333;
+  }
+  
+  .btn-info {
+    background-color: #17a26b;
+    border: none;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+  }
+  
+  .btn-info:hover {
+    background-color: #0d7249;
+  }

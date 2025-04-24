@@ -1,0 +1,26 @@
+.dashboard-container {
+    padding: 30px;
+    max-width: 1100px;
+    margin: auto;
+  }
+  
+  .section-heading {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 26px;
+    color: #1774c4;
+  }
+  
+  .role-card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  }
+  
+  .role-card:hover {
+    transform: translateY(-5px);
+    background: #e6f7ff;
+  }
