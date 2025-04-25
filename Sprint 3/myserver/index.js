@@ -34,7 +34,7 @@ async function run() {
     // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
 
-    const database = client.db("productDB"); //create database 
+    const database = client.db("agriconnect"); //create database 
     const productCollection = database.collection("products");
 
     app.get('/products' , async(req,res) =>{
