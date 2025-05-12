@@ -1,0 +1,73 @@
+/* Custom slider styles */
+.carousel {
+    margin-bottom: 60px;
+  }
+  
+  .carousel-item {
+    height: 500px;
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .carousel-caption {
+    bottom: 30%;
+    text-align: left;
+    left: 10%;
+    right: 50%;
+  }
+  
+  .slider-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 5px;
+    max-width: 500px;
+  }
+  
+  .slider-title {
+    color: #333;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .slider-description {
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+  }
+  
+  .slider-btn {
+    padding: 10px 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .carousel-item {
+      height: 400px;
+    }
+    
+    .carousel-caption {
+      bottom: 20%;
+      left: 5%;
+      right: 5%;
+    }
+    
+    .slider-content {
+      padding: 20px;
+    }
+    
+    .slider-title {
+      font-size: 1.8rem;
+    }
+    
+    .slider-description {
+      font-size: 1rem;
+    }
+  }
