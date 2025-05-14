@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "SF Pro";
+  src: url("https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.eot");
+  src: url("https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/0b51833ff62e4af8acb5fd3e2bf59e97.svg#SF Pro Display Regular")
+      format("svg");
+}
+
+/* in your global CSS or Tailwind config */
+.input-field {
+  @apply py-2 px-4 text-lg bg-white border rounded-lg w-full;
+}
+.error {
+  @apply text-red-500 text-sm -mt-2;
+}
+
+@utility large-title {
+  font-family: "SF Pro";
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+@utility large-text {
+  font-weight: 400;
+  font-family: "SF Pro";
+  font-size: 34px;
+  line-height: 41px;
+  letter-spacing: 0%;
+}
+
+@utility title-one {
+  font-family: "SF Pro";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 0%;
+}
+
+@utility title-two {
+  font-family: "SF Pro";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0%;
+}
+
+@utility title-three {
+  font-family: "SF Pro";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0%;
+}
+
+@utility headline {
+  font-family: "SF Pro";
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+
+@utility sub-headline {
+  font-family: "SF Pro";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+@utility body {
+  font-family: "SF Pro";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+
+@utility body-two {
+  font-family: "SF Pro";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+@utility callout {
+  font-family: "SF Pro";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0%;
+}
+
+@utility footnote {
+  font-family: "SF Pro";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+@utility caption-one {
+  font-family: "SF Pro";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0%;
+}
+
+@utility caption-two {
+  font-family: "SF Pro";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0%;
+}
